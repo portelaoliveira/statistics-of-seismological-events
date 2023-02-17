@@ -40,6 +40,6 @@ plt.savefig("histograma_cum.png")
 
 plt.figure(figsize=(12, 8))
 plt.title("Análise estatística de terremotos da America do Sul")
-plt.boxplot(mag)
+plt.boxplot(mag, showmeans=True)
 plt.ylabel("Magnitude")
 plt.savefig("boxplot.png")
